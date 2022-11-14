@@ -15,7 +15,7 @@ const pc_config = {
 		},
 	],
 };
-const SOCKET_SERVER_URL = 'http://localhost:8080';
+const SOCKET_SERVER_URL = 'https://chamchimayo.shop/';
 
 const App = () => {
 	const socketRef = useRef<SocketIOClient.Socket>();
